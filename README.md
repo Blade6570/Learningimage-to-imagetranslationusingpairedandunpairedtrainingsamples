@@ -6,6 +6,7 @@ This is the implementation for the  "Learning image-to-image translation using p
  2. Create a folder name *datasets* with the subfolder structures as given in this repo.
  3. Keep the paired data in *train*-subfolder and unpaired data in *trainA* and *trainB* subfolders.
  4. Then run: *python train.py --dataroot ./datasets --model cycle_gan --dataset_mode unaligned --which_model_netG resnet_9blocks --which_direction AtoB --super_epoch 50 --super_epoch_start 0 --super_mode aligned --super_start 1 --name mygan_70 --no_dropout*
+ 
 **Testing**
  1. Downlaod cityscapes test data as in cyclegan as sugggested in [here](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) 
  2. Keep the test data in *testA* and *testB* subfolders within *datasets* folder.
@@ -17,10 +18,27 @@ This is the implementation for the  "Learning image-to-image translation using p
  3. For no unpaired data, set --super_epoch and --niter to same value. 
  
  *Note*: If you are using this implementation for your research work then please cite us as: 
- 
+
+```
+#Citation 
+
 @article{tripathy+kannala+rahtu,
   title={Learning image-to-image translation using paired and unpaired training samples},
   author={Tripathy, Soumya and Kannala, Juho and Rahtu, Esa},
   journal={arXiv preprint arXiv:1805.03189},
   year={2018}
 }
+
+```
+
+```
+Note: For the citations of the datasets and existing methods (e.g. cycleGAN, pix2pix) mentioned in this page, please refer to the paper: https://arxiv.org/abs/1805.03189. 
+```
+```
+Related Work
+
+1. Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio "Generative Adversarial Networks", in NIPS 2014. 
+2. Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, and Alexei A. Efros. "Image-to-Image Translation with Conditional Adversarial Networks", in CVPR 2017.
+3. J. Y. Zhu, T. Park, P. Isola, and A. A. Efros. "Unpaired image-to-image translation using cycle-consistent adversarial networks",
+
+
