@@ -3,6 +3,9 @@ This is the part of implementation for the  "Learning image-to-image translation
 
 ![O](https://github.com/Blade6570/Learningimage-to-imagetranslationusingpairedandunpairedtrainingsamples/blob/master/teaser.png?raw=true "Comparision with other methods")
 
+ **Prerequisites**
+ 1. Pytorch 0.3.1
+ 2. Visdom and dominate
  
  **Training**
  1. Downlaod cityscapes datasets as in pix2pix and cyclegan as sugggested in [here](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) 
