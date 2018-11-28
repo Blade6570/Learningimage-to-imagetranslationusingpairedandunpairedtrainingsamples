@@ -1,5 +1,5 @@
 # Learningimage-to-imagetranslationusingpairedandunpairedtrainingsamples
-This is the implementation for the  "Learning image-to-image translation using paired and unpaired training samples" (https://arxiv.org/pdf/1805.03189.pdf)). This paper is accepted in ACCV 2018. 
+This is the part of implementation for the  "Learning image-to-image translation using paired and unpaired training samples" (https://arxiv.org/pdf/1805.03189.pdf)). This paper is accepted in ACCV 2018. 
 
 ![O](https://github.com/Blade6570/Learningimage-to-imagetranslationusingpairedandunpairedtrainingsamples/blob/master/teaser.png?raw=true "Comparision with other methods")
 
@@ -18,9 +18,9 @@ This is the implementation for the  "Learning image-to-image translation using p
  **Training Tips:**
  1. With less paired data, increase the --super_epoch value for better results. 
  2. With No paired data, set --super_start 0. 
- 3. For no unpaired data, set --super_epoch and --niter to same value. 
+ 3. For no unpaired data, set --super_epoch and --niter to same value. We have not included the VGG loss in the training script (Commented part). We will update this soon. For any help, please contact us at:  soumya.tripathy@tut.fi
  
- *Note*: If you are using this implementation for your research work then please cite us as: 
+ **Note: If you are using this implementation for your research work then please cite us as:** 
 
 ```
 #Citation 
@@ -43,5 +43,6 @@ Related Work
 1. Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, Yoshua Bengio "Generative Adversarial Networks", in NIPS 2014. 
 2. Phillip Isola, Jun-Yan Zhu, Tinghui Zhou, and Alexei A. Efros. "Image-to-Image Translation with Conditional Adversarial Networks", in CVPR 2017.
 3. J. Y. Zhu, T. Park, P. Isola, and A. A. Efros. "Unpaired image-to-image translation using cycle-consistent adversarial networks",
-
+```
+**NOTE:** Code borrows heavily from [pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix)
 
