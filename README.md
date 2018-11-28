@@ -1,7 +1,7 @@
 # Learningimage-to-imagetranslationusingpairedandunpairedtrainingsamples
 This is the implementation for the  "Learning image-to-image translation using paired and unpaired training samples" (https://arxiv.org/pdf/1805.03189.pdf)). This paper is accepted in ACCV 2018. 
 
-![O](https://github.com/Blade6570/Learningimage-to-imagetranslationusingpairedandunpairedtrainingsamples/teaser.png?raw=true "Comparision with other methods")
+![O](https://github.com/Blade6570/Learningimage-to-imagetranslationusingpairedandunpairedtrainingsamples/blob/master/teaser.png?raw=true "Comparision with other methods")
 
  
  **Training**
