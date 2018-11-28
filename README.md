@@ -1,5 +1,8 @@
 # Learningimage-to-imagetranslationusingpairedandunpairedtrainingsamples
 This is the implementation for the  "Learning image-to-image translation using paired and unpaired training samples" (https://arxiv.org/pdf/1805.03189.pdf)). This paper is accepted in ACCV 2018. 
+![Output](https://github.com/Blade6570/Learningimage-to-imagetranslationusingpairedandunpairedtrainingsamples/teaser.png
+      ?raw=true "Comparision with other methods")
+
  
  **Training**
  1. Downlaod cityscapes datasets as in pix2pix and cyclegan as sugggested in [here](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) 
