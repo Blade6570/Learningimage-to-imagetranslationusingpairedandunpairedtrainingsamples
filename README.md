@@ -1,6 +1,4 @@
-# Learning image-to-image translation using paired and unpaired trainingsamples
-
-[**Project Page**](https://tutvision.github.io/Learning-image-to-image-translation-using-paired-and-unpaired-training-samples/)
+# Learning image-to-image translation using paired and unpaired trainingsamples: [**Project Page**](https://tutvision.github.io/Learning-image-to-image-translation-using-paired-and-unpaired-training-samples/)
 
 This is the part of implementation for the  "Learning image-to-image translation using paired and unpaired training samples" (https://arxiv.org/pdf/1805.03189.pdf)). This paper is accepted in ACCV 2018. 
 
