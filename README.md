@@ -12,7 +12,7 @@ This is the implementation for the  "Learning image-to-image translation using p
  2. Keep the test data in *testA* and *testB* subfolders within *datasets* folder.
  3. Then run: *python test.py --dataroot ./datasets --model cycle_gan --dataset_mode unaligned --which_model_netG resnet_9blocks --which_direction AtoB --name mygan_70 --how_many 100*
  
- *Training Tips:*
+ **Training Tips:**
  1. With less paired data, increase the --super_epoch value for better results. 
  2. With No paired data, set --super_start 0. 
  3. For no unpaired data, set --super_epoch and --niter to same value. 
