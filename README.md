@@ -25,7 +25,7 @@ This is the part of implementation for the  "Learning image-to-image translation
  **Training Tips:**
  1. With less paired data, increase the --super_epoch value for better results. 
  2. With No paired data, set --super_start 0. 
- 3. For no unpaired data, set --super_epoch and --niter to same value. We have not included the VGG loss in the training script (Commented part). We will update this soon. For any help, please contact us at:  soumya.tripathy@tut.fi
+ 3. For no unpaired data, set --super_epoch and --niter to same value. We have not included the VGG loss in the training script (Commented part). We will update this soon. For any help, please contact us at:  soumya.tripathy@tuni.fi
  
  **Note: If you are using this implementation for your research work then please cite us as:** 
 
