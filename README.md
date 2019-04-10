@@ -1,10 +1,11 @@
-# Learning image-to-image translation using paired and unpaired trainingsamples: [**Project Page**](https://tutvision.github.io/Learning-image-to-image-translation-using-paired-and-unpaired-training-samples/)
+## Learning image-to-image translation using paired and unpaired trainingsamples ##
 
-This is the part of implementation for the  "Learning image-to-image translation using paired and unpaired training samples" (https://arxiv.org/pdf/1805.03189.pdf)). This paper is accepted in ACCV 2018. 
-
-
+[**Project**](https://tutvision.github.io/Learning-image-to-image-translation-using-paired-and-unpaired-training-samples/) | [**Arxiv**](https://arxiv.org/pdf/1805.03189.pdf) | [**ACCV-2018**](http://accv2018.net/)
+***
 
 ![O](https://github.com/Blade6570/Learningimage-to-imagetranslationusingpairedandunpairedtrainingsamples/blob/master/teaser.png?raw=true "Comparision with other methods")
+
+This is the part of implementation for the  "Learning image-to-image translation using paired and unpaired training samples" (https://arxiv.org/pdf/1805.03189.pdf). **_This paper is accepted in ACCV 2018_**. 
 
  **Prerequisites**
  1. Python 3.5.4
@@ -25,9 +26,9 @@ This is the part of implementation for the  "Learning image-to-image translation
  **Training Tips:**
  1. With less paired data, increase the --super_epoch value for better results. 
  2. With No paired data, set --super_start 0. 
- 3. For no unpaired data, set --super_epoch and --niter to same value. We have not included the VGG loss in the training script (Commented part). We will update this soon. For any help, please contact us at:  soumya.tripathy@tuni.fi
+ 3. For no unpaired data, set --super_epoch and --niter to same value. We have not included the VGG loss in the training script (Commented part). We will update this soon. *For any help, please contact us at:  soumya.tripathy@tuni.fi*
  
- **Note: If you are using this implementation for your research work then please cite us as:** 
+ **If you are using this implementation for your research work then please cite us as:** 
 
 ```
 #Citation 
@@ -39,10 +40,6 @@ This is the part of implementation for the  "Learning image-to-image translation
   year={2018}
 }
 
-```
-
-```
-Note: For the citations of the datasets and existing methods (e.g. cycleGAN, pix2pix) mentioned in this page, please refer to the paper: https://arxiv.org/abs/1805.03189. 
 ```
 ```
 Related Work
